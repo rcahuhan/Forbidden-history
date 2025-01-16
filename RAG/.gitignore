@@ -1,0 +1,63 @@
+# Python-specific
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Environment files
+.myenv
+*.myenv
+
+# Byte-compiled or optimized files
+*.pyc
+*.pyo
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Virtual environment
+myenv/
+.myenv/
+myvenv.bak/
+
+# Logs
+*.log
+*.txt
+
+# IDE-specific
+.vscode/
+.idea/
+*.swp
+
+# Vector Store
+vectorstore/
+vectorstore/faiss_index
+
+# Data files
+*.db
+*.sqlite
+*.sqlite3
+
+# Pytest cache
+.pytest_cache/
+
+# Miscellaneous
+*.bak
+*.tmp
+
+# Docker
+*.pid
+docker-compose.override.yml
+
+# RAG-specific files
+retriever_output/
+retrieved_chunks.json
+cached_embeddings/
+
+
+RAG/myenv/
+
